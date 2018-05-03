@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "XMPPHelper.h"
+
+@import XMPPFramework;   //objective-c
 
 @interface ViewController ()
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
